@@ -6,7 +6,6 @@ class SummationSolver():
         self._c = c
         self._max_len = len(c) 
         self._count = 0
-        
     def _t2i(self, text, lookup): #text to int
         total = 0
         length = len(text)
